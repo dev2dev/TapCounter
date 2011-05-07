@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F9F51A137560B1000AF264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F519137560B1000AF264 /* UIKit.framework */; };
+		24F9F51C137560B1000AF264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F51B137560B1000AF264 /* Foundation.framework */; };
+		24F9F51E137560B1000AF264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F51D137560B1000AF264 /* CoreGraphics.framework */; };
+		24F9F524137560B1000AF264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F9F522137560B1000AF264 /* InfoPlist.strings */; };
+		24F9F527137560B1000AF264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9F526137560B1000AF264 /* main.m */; };
+		24F9F52A137560B1000AF264 /* TapCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9F529137560B1000AF264 /* TapCounterAppDelegate.m */; };
+		24F9F52D137560B1000AF264 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9F52B137560B1000AF264 /* MainWindow.xib */; };
+		24F9F530137560B1000AF264 /* TapCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9F52F137560B1000AF264 /* TapCounterViewController.m */; };
+		24F9F533137560B1000AF264 /* TapCounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9F531137560B1000AF264 /* TapCounterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24F9F515137560B1000AF264 /* TapCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F9F519137560B1000AF264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24F9F51B137560B1000AF264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24F9F51D137560B1000AF264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24F9F521137560B1000AF264 /* TapCounter-Info.plist */ = {isa = PBXFileReference; path = "TapCounter-Info.plist"; sourceTree = "<group>"; };
+		24F9F523137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24F9F525137560B1000AF264 /* TapCounter-Prefix.pch */ = {isa = PBXFileReference; path = "TapCounter-Prefix.pch"; sourceTree = "<group>"; };
+		24F9F526137560B1000AF264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24F9F528137560B1000AF264 /* TapCounterAppDelegate.h */ = {isa = PBXFileReference; path = TapCounterAppDelegate.h; sourceTree = "<group>"; };
+		24F9F529137560B1000AF264 /* TapCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCounterAppDelegate.m; sourceTree = "<group>"; };
+		24F9F52C137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		24F9F52E137560B1000AF264 /* TapCounterViewController.h */ = {isa = PBXFileReference; path = TapCounterViewController.h; sourceTree = "<group>"; };
+		24F9F52F137560B1000AF264 /* TapCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCounterViewController.m; sourceTree = "<group>"; };
+		24F9F532137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TapCounterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F9F512137560B1000AF264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F9F51A137560B1000AF264 /* UIKit.framework in Frameworks */,
+				24F9F51C137560B1000AF264 /* Foundation.framework in Frameworks */,
+				24F9F51E137560B1000AF264 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F9F50A137560B0000AF264 = {
+			isa = PBXGroup;
+			children = (
+				24F9F51F137560B1000AF264 /* TapCounter */,
+				24F9F518137560B1000AF264 /* Frameworks */,
+				24F9F516137560B1000AF264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24F9F516137560B1000AF264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F9F515137560B1000AF264 /* TapCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F9F518137560B1000AF264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F9F519137560B1000AF264 /* UIKit.framework */,
+				24F9F51B137560B1000AF264 /* Foundation.framework */,
+				24F9F51D137560B1000AF264 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24F9F51F137560B1000AF264 /* TapCounter */ = {
+			isa = PBXGroup;
+			children = (
+				24F9F528137560B1000AF264 /* TapCounterAppDelegate.h */,
+				24F9F529137560B1000AF264 /* TapCounterAppDelegate.m */,
+				24F9F52B137560B1000AF264 /* MainWindow.xib */,
+				24F9F52E137560B1000AF264 /* TapCounterViewController.h */,
+				24F9F52F137560B1000AF264 /* TapCounterViewController.m */,
+				24F9F531137560B1000AF264 /* TapCounterViewController.xib */,
+				24F9F520137560B1000AF264 /* Supporting Files */,
+			);
+			path = TapCounter;
+			sourceTree = "<group>";
+		};
+		24F9F520137560B1000AF264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F9F521137560B1000AF264 /* TapCounter-Info.plist */,
+				24F9F522137560B1000AF264 /* InfoPlist.strings */,
+				24F9F525137560B1000AF264 /* TapCounter-Prefix.pch */,
+				24F9F526137560B1000AF264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F9F514137560B1000AF264 /* TapCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F9F536137560B1000AF264 /* Build configuration list for PBXNativeTarget "TapCounter" */;
+			buildPhases = (
+				24F9F511137560B1000AF264 /* Sources */,
+				24F9F512137560B1000AF264 /* Frameworks */,
+				24F9F513137560B1000AF264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapCounter;
+			productName = TapCounter;
+			productReference = 24F9F515137560B1000AF264 /* TapCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F9F50C137560B1000AF264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Weblify sp. z o.o.";
+			};
+			buildConfigurationList = 24F9F50F137560B1000AF264 /* Build configuration list for PBXProject "TapCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24F9F50A137560B0000AF264;
+			productRefGroup = 24F9F516137560B1000AF264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F9F514137560B1000AF264 /* TapCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F9F513137560B1000AF264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F9F524137560B1000AF264 /* InfoPlist.strings in Resources */,
+				24F9F52D137560B1000AF264 /* MainWindow.xib in Resources */,
+				24F9F533137560B1000AF264 /* TapCounterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F9F511137560B1000AF264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F9F527137560B1000AF264 /* main.m in Sources */,
+				24F9F52A137560B1000AF264 /* TapCounterAppDelegate.m in Sources */,
+				24F9F530137560B1000AF264 /* TapCounterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24F9F522137560B1000AF264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F9F523137560B1000AF264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24F9F52B137560B1000AF264 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F9F52C137560B1000AF264 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		24F9F531137560B1000AF264 /* TapCounterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F9F532137560B1000AF264 /* en */,
+			);
+			name = TapCounterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F9F534137560B1000AF264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24F9F535137560B1000AF264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24F9F537137560B1000AF264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCounter/TapCounter-Prefix.pch";
+				INFOPLIST_FILE = "TapCounter/TapCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24F9F538137560B1000AF264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCounter/TapCounter-Prefix.pch";
+				INFOPLIST_FILE = "TapCounter/TapCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F9F50F137560B1000AF264 /* Build configuration list for PBXProject "TapCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F9F534137560B1000AF264 /* Debug */,
+				24F9F535137560B1000AF264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F9F536137560B1000AF264 /* Build configuration list for PBXNativeTarget "TapCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F9F537137560B1000AF264 /* Debug */,
+				24F9F538137560B1000AF264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24F9F50C137560B1000AF264 /* Project object */;
+}
