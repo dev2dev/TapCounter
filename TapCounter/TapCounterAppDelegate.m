@@ -3,7 +3,7 @@
 //  TapCounter
 //
 //  Created by Łukasz Adamczak on 5/7/11.
-//  Copyright 2011 Weblify sp. z o.o. All rights reserved.
+//  Copyright 2011 czak.pl All rights reserved.
 //
 
 #import "TapCounterAppDelegate.h"
@@ -20,7 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

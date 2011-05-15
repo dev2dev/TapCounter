@@ -1,0 +1,24 @@
+# the build
+build
+
+# temp nibs and swap files
+*~.nib
+*.swp
+
+# OS X folder attributes
+.DS_Store
+Icon
+
+
+# user-specific XCode stuff
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+
+# Xcode 4
+xcuserdata
+*.xcworkspace
+
+# Dropbox
+.dropbox

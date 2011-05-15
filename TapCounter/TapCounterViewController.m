@@ -3,47 +3,54 @@
 //  TapCounter
 //
 //  Created by Łukasz Adamczak on 5/7/11.
-//  Copyright 2011 Weblify sp. z o.o. All rights reserved.
+//  Copyright 2011 czak.pl All rights reserved.
 //
 
 #import "TapCounterViewController.h"
 
 @implementation TapCounterViewController
 
-- (void)dealloc
-{
+@synthesize counter;
+@synthesize button;
+
+- (void)dealloc {
+    self.button = nil;
+    
     [super dealloc];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
+
+#pragma mark - Akcje
+
+- (IBAction)increment {
+    [self.button setTitle:[NSString stringWithFormat:@"%d", ++self.counter] forState:UIControlStateNormal];
 }
 
-#pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
+#pragma mark - UIViewController
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self becomeFirstResponder];
 }
+
+
+#pragma mark - UIResponder
+
+- (BOOL)canBecomeFirstResponder {
+    return YES;
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    if (motion == UIEventSubtypeMotionShake) {
+        self.counter = 0;
+        [self.button setTitle:@"0" forState:UIControlStateNormal];
+    }
+}
+
 
 @end

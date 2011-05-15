@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2471CA6F13801FC0003DBDE2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2471CA6D13801FC0003DBDE2 /* Icon.png */; };
+		2471CA7013801FC0003DBDE2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2471CA6E13801FC0003DBDE2 /* Icon@2x.png */; };
 		24F9F51A137560B1000AF264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F519137560B1000AF264 /* UIKit.framework */; };
 		24F9F51C137560B1000AF264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F51B137560B1000AF264 /* Foundation.framework */; };
 		24F9F51E137560B1000AF264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9F51D137560B1000AF264 /* CoreGraphics.framework */; };
@@ -19,18 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2471CA6D13801FC0003DBDE2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		2471CA6E13801FC0003DBDE2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		24F9F515137560B1000AF264 /* TapCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F9F519137560B1000AF264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24F9F51B137560B1000AF264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24F9F51D137560B1000AF264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24F9F521137560B1000AF264 /* TapCounter-Info.plist */ = {isa = PBXFileReference; path = "TapCounter-Info.plist"; sourceTree = "<group>"; };
+		24F9F521137560B1000AF264 /* TapCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCounter-Info.plist"; sourceTree = "<group>"; };
 		24F9F523137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24F9F525137560B1000AF264 /* TapCounter-Prefix.pch */ = {isa = PBXFileReference; path = "TapCounter-Prefix.pch"; sourceTree = "<group>"; };
+		24F9F525137560B1000AF264 /* TapCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCounter-Prefix.pch"; sourceTree = "<group>"; };
 		24F9F526137560B1000AF264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24F9F528137560B1000AF264 /* TapCounterAppDelegate.h */ = {isa = PBXFileReference; path = TapCounterAppDelegate.h; sourceTree = "<group>"; };
+		24F9F528137560B1000AF264 /* TapCounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapCounterAppDelegate.h; sourceTree = "<group>"; };
 		24F9F529137560B1000AF264 /* TapCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCounterAppDelegate.m; sourceTree = "<group>"; };
 		24F9F52C137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		24F9F52E137560B1000AF264 /* TapCounterViewController.h */ = {isa = PBXFileReference; path = TapCounterViewController.h; sourceTree = "<group>"; };
+		24F9F52E137560B1000AF264 /* TapCounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapCounterViewController.h; sourceTree = "<group>"; };
 		24F9F52F137560B1000AF264 /* TapCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCounterViewController.m; sourceTree = "<group>"; };
 		24F9F532137560B1000AF264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TapCounterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +97,8 @@
 		24F9F520137560B1000AF264 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2471CA6D13801FC0003DBDE2 /* Icon.png */,
+				2471CA6E13801FC0003DBDE2 /* Icon@2x.png */,
 				24F9F521137560B1000AF264 /* TapCounter-Info.plist */,
 				24F9F522137560B1000AF264 /* InfoPlist.strings */,
 				24F9F525137560B1000AF264 /* TapCounter-Prefix.pch */,
@@ -154,6 +160,8 @@
 				24F9F524137560B1000AF264 /* InfoPlist.strings in Resources */,
 				24F9F52D137560B1000AF264 /* MainWindow.xib in Resources */,
 				24F9F533137560B1000AF264 /* TapCounterViewController.xib in Resources */,
+				2471CA6F13801FC0003DBDE2 /* Icon.png in Resources */,
+				2471CA7013801FC0003DBDE2 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +249,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapCounter/TapCounter-Prefix.pch";
 				INFOPLIST_FILE = "TapCounter/TapCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +263,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapCounter/TapCounter-Prefix.pch";
 				INFOPLIST_FILE = "TapCounter/TapCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -279,6 +289,7 @@
 				24F9F538137560B1000AF264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
