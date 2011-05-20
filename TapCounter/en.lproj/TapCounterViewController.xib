@@ -44,7 +44,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIButton" id="1070785038">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{480, 320}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
@@ -58,6 +58,7 @@
 							<double key="NSSize">200</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<int key="IBUILineBreakMode">4</int>
 						<string key="IBUITitleShadowOffset">{0, -3}</string>
 						<string key="IBUINormalTitle">0</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor">

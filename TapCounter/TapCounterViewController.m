@@ -13,6 +13,7 @@
 @synthesize counter;
 @synthesize button;
 
+
 - (void)dealloc {
     self.button = nil;
     
@@ -30,7 +31,7 @@
 #pragma mark - UIViewController
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
+    return YES;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
